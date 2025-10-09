@@ -1,0 +1,108 @@
+# =========================
+# Python & Build Artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+wheels/
+MANIFEST
+
+# =========================
+# Environment & Dependency Files
+# =========================
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+*.envrc
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints
+*.ipynb~
+
+# =========================
+# Logs & Debug
+# =========================
+*.log
+*.out
+*.err
+logs/
+debug.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor Settings
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# LangChain Specific
+# =========================
+# Vector databases (FAISS, Chroma, etc.)
+chroma/
+vectorstore/
+faiss_index/
+indexes/
+db/
+
+# Cached chain results / state
+.cache/
+langchain/
+.langchain/
+langchain.db
+
+# =========================
+# Model / Data Files
+# =========================
+*.csv
+*.tsv
+*.jsonl
+*.pickle
+*.pkl
+*.parquet
+
+# Hugging Face / Transformers
+cache/
+datasets/
+hf_cache/
+transformers_cache/
+models/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.bak
+*.orig
+*.old
+
+# =========================
+# Miscellaneous
+# =========================
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.nox/
